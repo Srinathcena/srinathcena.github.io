@@ -1,0 +1,50 @@
+<html>
+<head>
+  <style>
+    header  {
+      color: black;
+      text-align: center;
+      padding: 8px;
+      text-decoration: none;
+      font-size: 50px;
+
+    }
+
+
+    .button {
+      background-color: transparent;
+      border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 21px;
+      float:right;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #008CBA;
+      color: white;
+    }
+    .button:active {
+      background-color: black;
+      box-shadow: 0 2px #666;
+      transform: translateY(2px);
+    }
+  </style>
+</head>
+<body >
+
+<div class="Header">
+  <h1 class="head">Smart Hotel Application System</h1>
+</div>
+
+ <div class="menu">
+<a href="SignUp.html" class="button"  ><b>Sign up</b></a>
+<a class="button"  (click)="onsubmit()"><b>uesr Log In</b></a>
+<a class="button" (click)="onsubmit_1()"><b>Admin login</b></a>
+ </div>
+
+</body>
+</html>

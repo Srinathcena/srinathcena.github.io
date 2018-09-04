@@ -1,0 +1,25 @@
+
+<html>
+<head> <title>Seat Availability</title>
+
+
+
+</head>
+<body><h1>Click on the imgage to see the number of seats </h1>
+<h1  onmouseover="document.getElementById('demo').innerHTML='Table 1 ' ">
+  <img  onclick="document.getElementById('demo').innerHTML='&nbsp&nbsp&nbsp -- SEATS &nbsp&nbsp&nbspAVAILABLE' "src="/src/assets/image2.jpg" />
+  <span id="demo">Table 1</span>
+  <input type="number">No of seats
+</h1>
+<h1 onmouseover="document.getElementById('demo1').innerHTML='Table 2' ">
+  <img  onclick="document.getElementById('demo1').innerHTML='&nbsp&nbsp&nbsp -- SEATS &nbsp&nbsp&nbspAVAILABLE' "src="/src/assets/image2.jpg" />
+  <span id="demo1">Table 2</span>
+  <input type="number">No of seats
+</h1>
+
+<div class ="button">
+  <input type="submit" (click)="onsubmit()"  value="submit" align="center">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+}
+.Header{
+  padding:20px;
+  background-color: cornflowerblue;
+  color:white;
+  background-size: cover;
+  width:1290px;
+}
+.menu{
+  padding:40px;
+  background-image: url("/src/assets/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1250px;
+  height:500px;
+  background-color: lightcyan;
+}
+.head{
+  text-align:center;
+  color:black;
+}
+

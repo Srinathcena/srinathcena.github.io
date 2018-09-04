@@ -1,0 +1,30 @@
+body{
+  margin-top: 50px;
+  float: inherit;
+}
+h1{
+  padding: 20px;
+  font-family:helvetica;
+  height: 400px;
+  width: 300px;
+  float: left;
+  align-content: center;
+  margin-left: 50px;
+  background-color: bisque;
+}
+img:hover{
+  border-radius: 20px;
+}
+img{
+  width: 280px;
+  margin-left: 10px;
+  border-radius: 20px;
+  height: 300px;
+}
+span{
+  margin-top: 500px;
+  /* margin-left: 30px;*/
+  color:coral;
+  font-size: 35px;
+  padding: 20px;
+}
